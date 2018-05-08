@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=elokab-syspower logout
+Type=Application
+Icon=system-log-out
+Name=Logout
+Name[ar]=خروج
+Name[fr]=Déconnexion

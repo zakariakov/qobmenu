@@ -1,0 +1,5 @@
+[Desktop Entry]
+Question=Are you sure you want to quit all applications and %1 now ?
+Question[ar]=هل تريد حقا اغلاق كافة التطبيقات ثم %1 
+Reminder=If you do nothing, the system will %1 automatically in 30 seconds.
+Reminder[ar]=اذا لم تحدد خيارا سيتم %1 بعد %2 ثانية

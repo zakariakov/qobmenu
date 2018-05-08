@@ -1,0 +1,148 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+
+  <Name>Applications</Name>
+  <Directory>elokab-menu-applications.directory</Directory>
+
+  <!-- Islamic submenu -->
+  <Menu>
+    <Name>Islamic</Name>
+    <Directory>elokab-islamic.directory</Directory>
+    <Include>
+      <And>
+        <Category>Islamic</Category>
+       
+      </And>
+    </Include>
+  </Menu> <!-- End Islamic -->
+
+
+  <!-- Accessories submenu -->
+  <Menu>
+    <Name>Accessories</Name>
+    <Directory>elokab-utility.directory</Directory>
+    <Include>
+      <And>
+        <Category>Utility</Category>
+       
+      </And>
+    </Include>
+  </Menu> <!-- End Accessories -->
+
+  <!-- Accessibility submenu -->
+  <Menu>
+    <Name>Settings</Name>
+    <Directory>elokab-settings.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+       
+      </And>
+    </Include>
+  </Menu> <!-- End Accessibility -->
+
+  <!-- Development Tools -->
+  <Menu>
+    <Name>Development</Name>
+    <Directory>elokab-development.directory</Directory>
+    <Include>
+      <And>
+        <Category>Development</Category>
+      </And>
+     
+    </Include>
+  </Menu> <!-- End Development Tools -->
+
+  <!-- Education -->
+  <Menu>
+    <Name>Education</Name>
+    <Directory>elokab-education.directory</Directory>
+    <Include>
+      <And>
+        <Category>Education</Category>
+      </And>
+    </Include>
+  </Menu> <!-- End Education -->
+
+  <!-- Games -->
+  <Menu>
+    <Name>Games</Name>
+    <Directory>elokab-game.directory</Directory>
+    <Include>
+      <And>
+        <Category>Game</Category>
+      </And>
+    </Include>
+  </Menu> <!-- End Games -->
+
+  <!-- Graphics -->
+  <Menu>
+    <Name>Graphics</Name>
+    <Directory>elokab-graphics.directory</Directory>
+    <Include>
+      <And>
+        <Category>Graphics</Category>
+      </And>
+    </Include>
+  </Menu> <!-- End Graphics -->
+
+  <!-- Internet -->
+  <Menu>
+    <Name>Internet</Name>
+    <Directory>elokab-network.directory</Directory>
+    <Include>
+      <And>
+        <Category>Network</Category>
+      </And>
+    </Include>
+  </Menu>   <!-- End Internet -->
+
+  <!-- Multimedia -->
+  <Menu>
+    <Name>Multimedia</Name>
+    <Directory>elokab-audio-video.directory</Directory>
+    <Include>
+      <And>
+        <Category>AudioVideo</Category>
+      </And>
+    </Include>
+  </Menu>   <!-- End Multimedia -->
+
+  <!-- Office -->
+  <Menu>
+    <Name>Office</Name>
+    <Directory>elokab-office.directory</Directory>
+    <Include>
+      <And>
+        <Category>Office</Category>
+      </And>
+    </Include>
+  </Menu> <!-- End Office -->
+
+  <!-- System Tools-->
+  <Menu>
+    <Name>System</Name>
+    <Directory>elokab-system-tools.directory</Directory>
+    <Include>
+      <And>
+        <Category>System</Category>
+       
+      </And>
+    </Include>
+  </Menu>   <!-- End System Tools -->
+
+  <!-- Other -->
+  <Menu>
+    <Name>Other</Name>
+    <Directory>elokab-other.directory</Directory>
+    <OnlyUnallocated/>
+    <Include>
+      <And>
+        <Category>Other</Category>
+      </And>
+    </Include>
+  </Menu> <!-- End Other -->
+
+</Menu> <!-- End Applications -->
