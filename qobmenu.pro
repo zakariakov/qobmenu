@@ -91,10 +91,10 @@ TRANSLATIONS    =usr/share/elokab/translations/ar/epanel.ts\
 # MKDIR = mkdir -p /usr/share/elokab
 
 #---config files---------
- menusConfig.files =etc/xdg/menus/*
- menusConfig.path=/etc/xdg/
+# menusConfig.files =etc/xdg/menus/*
+# menusConfig.path=/etc/xdg/
 
- obConfig.files =etc/xdg/elokab/*
+ obConfig.files =etc/xdg/*
  obConfig.path=/etc/xdg/
 #---DATA files---------------
  dsDirectoriesData.files=usr/share/desktop-directories/*
@@ -106,6 +106,5 @@ TRANSLATIONS    =usr/share/elokab/translations/ar/epanel.ts\
  
  INSTALLS +=    target \
                 obConfig \
-                menusConfig \
                 dsDirectoriesData \
                 elokabData
